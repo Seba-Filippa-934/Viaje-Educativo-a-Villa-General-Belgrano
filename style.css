@@ -18,18 +18,58 @@ section{
 }
 .inicio {
     border-radius: 100%;
-    width: 15%;        
-    max-width: 150px; 
+    border-width: 2px;
+    border-style: solid;
+    border-color: #aadef3;
+    width: 20%;        
+    max-width: 300px; 
     min-width: 60px;   
-    height: auto;      
+    height: auto;
+    margin-bottom: 10px;  
+    margin-top: 10px;    
 }
 
 
-h1{
+.primer_div_de_inicio{
+    display: flex;            
+    justify-content: space-between;  
+    align-items: center;       
+    gap: 15px;      
     border-width: 1px;
     border-style: solid;
     border-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 40px;
     padding: 10px;
     background: linear-gradient(#000000, #101010,#232594);
+}
+.logo_del_cole{
+    max-width: 150;
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+h1{
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 10px;
+}
+h2{
+    font-style: italic;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+nav{
+    display: flex;            
+    justify-content: space-between;  
+    align-items: center;       
+    gap: 15px;      
+}
+button{
+    border-style: solid;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border-color: #aadef3;
 }
