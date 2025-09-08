@@ -10,14 +10,21 @@ body{
 section{
     padding: 2%;
 }
-.inicio{
-    display: inline;
-    margin-left: 1rem;
-    min-width: 8rem;
-    min-height: 8rem;
-
-    border-radius: 100%;
+.div_de_inicio{
+    display: flex;            
+    justify-content: center;  
+    align-items: center;       
+    gap: 15px;      
 }
+.inicio {
+    border-radius: 100%;
+    width: 15%;        
+    max-width: 150px; 
+    min-width: 60px;   
+    height: auto;      
+}
+
+
 h1{
     border-width: 1px;
     border-style: solid;
