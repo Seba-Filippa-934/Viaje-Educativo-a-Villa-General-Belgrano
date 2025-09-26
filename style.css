@@ -5,7 +5,7 @@ html, body{
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background: linear-gradient(#000000, #101010,#232594);
+    background: linear-gradient(#000000,#007bff);
 }
 section{
     padding: 2%;
@@ -26,7 +26,7 @@ section{
     border-color: aliceblue;
     border-radius: 40px;
     padding: 10px;
-    background: linear-gradient(#000000, #101010,#232594);
+    background: linear-gradient(#000000,#007bff);
     background-repeat: no-repeat;
 }
 .logo_del_cole{
@@ -50,7 +50,7 @@ p{
 /* --BOTONES-- */
 nav{
     margin-top: 20px;
-    background-color: #000150;
+    background-color: #0048cc;
     border-radius: 15px;
     padding: 1%;
 }
@@ -78,7 +78,7 @@ nav{
     height: 80px;
 }
 .button1, .button4{
-    background-color: #232594;
+    background-color: #007bff;
 }
 .button2, .button3{
     background-color: transparent;
@@ -167,7 +167,7 @@ nav{
     font-size: 15px;
     font-weight: bold;
     color: white;
-    background: #232594;
+    background:#007bff;
     border-radius: 100%;
     padding: 2px 6px;
     cursor: pointer;
@@ -180,7 +180,7 @@ nav{
     top: 0;
     right: 33px;  
     width: 200px;
-    background: #232594;
+    background:#007bff;
     color: white;
     padding: 10px;
     border-radius: 15px;
@@ -196,3 +196,12 @@ nav{
     opacity: 1;
   }
   
+/*HIPERVINCULOS*/
+a{
+    margin: 0;
+    padding: 0;
+    
+}
+footer{
+    text-align: right;
+}
