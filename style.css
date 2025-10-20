@@ -5,7 +5,7 @@ html, body{
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background: linear-gradient(#000000,#007bff);
+    background: linear-gradient(#000000,rgb(136, 115, 115));
     background-image: url(Assets/first-pag/images.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ section{
     margin-top: 5px;
     text-align: justify;
     padding: 7px;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgb(75, 63, 63, 0.5);;
     border-radius: 7px;
 }
 
@@ -32,16 +32,16 @@ section{
     gap: 15px;      
 }
 .primer_div_de_inicio{
-    display: flex;            
-    justify-content: space-between;  
-    align-items: center;       
-    gap: 15%;      
-    border-width: 1px;
-    border-style: solid;
-    border-color: aliceblue;
-    border-radius: 40px;
-    padding: 10px;
-    background: linear-gradient(#000000,#007bff);
+    display: flex !important;            
+    justify-content: space-between !important;  
+    align-items: center !important;       
+    gap: 15% !important;      
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: aliceblue !important;
+    border-radius: 40px !important;
+    padding: 10px !important;
+    background: rgb(75, 63, 63, 0.8) !important;
     background-repeat: no-repeat;
 }
 .logo_del_cole{
@@ -59,7 +59,7 @@ h1{
 h2{
     font-style: italic;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 p{
     font-size: 20px;
@@ -68,7 +68,7 @@ p{
 /* --BOTONES-- */
 nav{
     margin-top: 20px;
-    background-color: #0048cc;
+    background-color: rgb(99, 89, 89);
     border-radius: 15px;
     padding: 1%;
 }
@@ -96,7 +96,7 @@ nav{
     height: 80px;
 }
 .button1, .button4{
-    background-color: #007bff;
+    background-color: rgb(136, 115, 115);
 }
 .button2, .button3{
     background-color: transparent;
@@ -118,16 +118,16 @@ nav{
 
 /* --HOVERS-- */
 .button1:hover{
-    background-color: #101010;
+    background-color: rgb(75, 63, 63);
 }
 .button4:hover{
-    background-color: #101010
+    background-color: rgb(75, 63, 63)
 }
 .button2:hover{
-    background-color: #1a1a2c;
+    background-color: rgb(75, 63, 63);
 }
 .button3:hover{
-    background-color: #1a1a2c;
+    background-color: rgb(75, 63, 63);
 }
 
 /* --IMAGENES-- */
@@ -157,7 +157,7 @@ nav{
 /* --TITULITO-- */
 .h2_contenedor{
     text-align: center;
-    text-decoration: underline black;
+    text-decoration: underline rgb(255, 255, 255);
     font-size: 30px;
     padding-top: 30px;
     padding-bottom: 0;
@@ -185,7 +185,7 @@ nav{
     font-size: 15px;
     font-weight: bold;
     color: white;
-    background:#007bff;
+    background:rgb(136, 115, 115);
     border-radius: 100%;
     padding: 2px 6px;
     cursor: pointer;
@@ -198,7 +198,7 @@ nav{
     top: 0;
     right: 33px;  
     width: 200px;
-    background:#007bff;
+    background:rgb(136, 115, 115);
     color: white;
     padding: 10px;
     border-radius: 15px;
@@ -222,4 +222,10 @@ a{
 }
 footer{
     text-align: right;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 3px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(136, 115, 115);
 }
