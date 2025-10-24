@@ -62,6 +62,42 @@ img{
     justify-content: center; /* centra verticalmente la imagen y el texto */
     gap: 15px; /* espacio entre imagen y texto */
 }
+.cont1{
+  display: flex;
+  flex-direction: column; /* Imagen, texto y botón en columna */
+  align-items: center; /* Centra todo horizontalmente */
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.foto {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centra la imagen */
+  border-radius: 10px;
+}
+
+.boton {
+  position: absolute;
+  bottom: 10px;
+  right: 10px; /* Fijalo en una esquina o centrado si preferís */
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+
   
 .fin-pagina{
     height: 168px;
@@ -75,4 +111,18 @@ footer{
     font-style: italic;
     color: rgb(0, 0, 0);
     background-color: rgb(136, 115, 115);
+}
+.boton-mas-info{
+    background-color: rgb(136, 115, 115);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.boton-mas-info:hover{
+    background-color: rgb(104, 91, 91);
 }
