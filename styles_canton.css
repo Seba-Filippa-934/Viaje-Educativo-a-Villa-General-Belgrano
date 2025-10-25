@@ -78,26 +78,6 @@ img{
   margin: 0 auto; /* Centra la imagen */
   border-radius: 10px;
 }
-
-.boton {
-  position: absolute;
-  bottom: 10px;
-  right: 10px; /* Fijalo en una esquina o centrado si preferís */
-  background-color: rgba(255, 255, 255, 0.2);
-  border: none;
-  color: #fff;
-  font-size: 22px;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-}
-
-.boton:hover {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-
   
 .fin-pagina{
     height: 168px;
@@ -125,4 +105,7 @@ footer{
 }
 .boton-mas-info:hover{
     background-color: rgb(104, 91, 91);
+}
+#contenido{
+    display: none;
 }
